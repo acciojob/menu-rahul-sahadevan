@@ -3,7 +3,7 @@ import React,{useState} from "react";
 function Menu({setCatogory}){  
    
     return (
-        <div className="menu">
+        <div className="menu-bar">
             <h1>Our Menu</h1>
             <div className="menu-heading">
                 <p onClick={()=>setCatogory("all")}>All</p>
