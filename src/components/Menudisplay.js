@@ -6,7 +6,7 @@ function Menudisplay({catagory}){
     let [items,setItems] = useState(Dishes);
     console.log(catagory)
     return (
-        <div id="menu" className="menu-div">
+        <div id="main" className="menu-div">
         {
                 items.map(item=>(
                     (item.category === catagory || catagory === "all") && (
