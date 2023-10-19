@@ -10,7 +10,7 @@ function Menudisplay({catagory}){
         {
                 items.map(item=>(
                     (item.category === catagory || catagory === "all") && (
-                        <div data-set-id={catagory} className="item-card">
+                        <div data-test-id={`menu-item-${catagory}`} className="item-card">
                             <h1>{item.title}</h1>
                             <p>{item.price}</p>
                             <p>{item.desc}</p>
