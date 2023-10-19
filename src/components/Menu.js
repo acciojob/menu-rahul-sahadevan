@@ -7,9 +7,9 @@ function Menu({setCatogory}){
             <h1>Our Menu</h1>
             <div className="menu-heading">
                 <p onClick={()=>setCatogory("all")}>All</p>
-                <p onClick={()=>setCatogory("breakfast")}>Breakfast</p>
-                <p onClick={()=>setCatogory("lunch")}>Lunch</p>
-                <p onClick={()=>setCatogory("shakes")}>Shakes</p>
+                <p id="filter-btn-1" onClick={()=>setCatogory("breakfast")}>Breakfast</p>
+                <p id="filter-btn-2" onClick={()=>setCatogory("lunch")}>Lunch</p>
+                <p id="filter-btn-3" onClick={()=>setCatogory("shakes")}>Shakes</p>
             </div>
            
             
